@@ -49,3 +49,11 @@ int Span::longestSpan() const {
     int maxElement = *std::max_element(_numbers.begin(), _numbers.end());
     return maxElement - minElement;
 }
+
+void Span::printContents() const {
+    std::cout << "Current Span contents (" << _numbers.size() << "/" << _maxSize << "): ";
+    for (int num : _numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+}

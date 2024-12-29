@@ -22,6 +22,7 @@ public:
     void addNumber(int number);
     int shortestSpan() const; 
     int longestSpan() const; 
+    void printContents() const;
 
     // Add a range of numbers using iterators
     template <typename InputIterator>
