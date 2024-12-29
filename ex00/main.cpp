@@ -1,8 +1,4 @@
 #include "easyfind.hpp"
-#include <iostream>
-#include <vector>
-#include <list>
-#include <deque>
 
 void testWithVector() {
     std::cout << "Testing with std::vector:" << std::endl;
